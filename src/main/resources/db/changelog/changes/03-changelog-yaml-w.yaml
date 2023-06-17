@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: createTable-W
+      author: your-name
+      changes:
+        - createTable:
+            tableName: W
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: wattr1
+                  type: varchar(255)
+              - column:
+                  name: wattr2
+                  type: varchar(255)

@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: createTable-Y
+      author: your-name
+      changes:
+        - createTable:
+            tableName: Y
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: yattr1
+                  type: varchar(255)
+              - column:
+                  name: yattr2
+                  type: varchar(255)
