@@ -16,6 +16,12 @@ curl -X POST -H "Content-Type: application/json" -d '{"xattr1":"Value of xattr1"
 curl -X POST -H "Content-Type: application/json" -d '{"wattr1":"Value of wattr1","wattr2":"Value of wattr2","yattr1": "Value of yattr1","yattr2":"Value of yattr2"}' http://localhost:8080/api/w
 ```
 
+# Get all X and W instances
+```
+curl http://localhost:8080/api/x
+curl http://localhost:8080/api/w
+```
+
 # Open H2 console
 http://localhost:8080/h2  
 - JDBC URL: jdbc:h2:mem:test
