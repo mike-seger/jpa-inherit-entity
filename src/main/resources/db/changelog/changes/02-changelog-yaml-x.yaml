@@ -18,3 +18,9 @@ databaseChangeLog:
               - column:
                   name: xattr2
                   type: varchar(255)
+        - addForeignKeyConstraint:
+            baseTableName: X
+            baseColumnNames: id
+            constraintName: FK_X_Y
+            referencedTableName: Y
+            referencedColumnNames: id

@@ -18,3 +18,9 @@ databaseChangeLog:
               - column:
                   name: wattr2
                   type: varchar(255)
+        - addForeignKeyConstraint:
+            baseTableName: W
+            baseColumnNames: id
+            constraintName: FK_W_Y
+            referencedTableName: Y
+            referencedColumnNames: id
