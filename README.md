@@ -18,6 +18,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"wattr1":"Value of wattr1"
 
 # Open H2 console
 http://localhost:8080/h2  
-- url: jdbc:h2:mem:test
-- user: sa
+- JDBC URL: jdbc:h2:mem:test
+- User Name: sa
 - no password
