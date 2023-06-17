@@ -1,3 +1,9 @@
+# Description
+
+This is a small SpringBoot example how to leverage inheritance in JPA.  
+This one here uses: @Inheritance(strategy = InheritanceType.JOINED)
+There exist several other strategies to achieve inheritance, for more information see here: https://thorben-janssen.com/complete-guide-inheritance-strategies-jpa-hibernate/
+
 # Run
 ```
 ./gradlew clean bootRun
